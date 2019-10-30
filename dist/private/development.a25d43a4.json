@@ -1,0 +1,47 @@
+{
+  "jwt_secret": "needs_to_be_changed_soon",
+  "syndication_be_host": "http://172.30.10.76:8080/api/v2/syndication/",
+  "auth_token": "key=mk9xY7rPfQ82flZqbNgHmECb7OCgPx83DoLFi5oUB5s=",
+  "obelix_dashboard_url": "http://localhost:3000",
+  "google": {
+    "client_id": "302817888808-fkqhsvhai2qdf6egotq8ienroh2hme0o.apps.googleusercontent.com",
+    "client_secret": "elca_5iSmLg4an4b6tLKCKz6",
+    "redirect_url": "http://localhost:3000/google/auth-redirect"
+  },
+  "elasticSearch": {
+    "snapshot": {
+      "hosts": [
+        "http://localhost:9200"
+      ],
+      "indexName": "obelix",
+      "typeName": "items"
+    },
+    "candidate": {
+      "hosts": [
+        "http://192.168.10.217:9200"
+      ],
+      "indexPrefix": "candidates",
+      "typeName": "_doc"
+    }
+  },
+  "redis": {
+    "uri": "redis://localhost:6379"
+  },
+  "obelixBackend": {
+    "host": "http://localhost:3000",
+    "scenario": {
+      "create": "/create",
+      "update": "/update",
+      "findAll": "/findAll"
+    },
+    "scenario_time_delta": 600
+  },
+  "mailer": {
+    "mailServerHost": "smtp.gmail.com",
+    "mailServerport": 465,
+    "from": "dh.internaltool@verse.in",
+    "password": "cockpit12!%40"
+  },
+  "user_management_url": "http://192.168.132.95:7000/dh/usermanagement/api/v1/",
+  "application_id": "e5b99770-d92a-11e9-9eb5-5558a77c68dc"
+}
