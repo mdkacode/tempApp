@@ -4,7 +4,7 @@ module.exports = {
     includes: ["pages/**","Modules/**", "lib/**"],
     service: {
       name: "api",
-      url: "http://202.21.35.120:4000/api",
+      url: "http://localhost:4000/api",
       // optional disable SSL validation check
       skipSSLValidation: true
     }
