@@ -78,8 +78,7 @@ class Application extends App {
       <ApolloProvider client={apolloClient}>
         <Container>
           <Layout>
-            <MainLayout isLogin={this.getLogin.bind(this)} isLogged={this.state.token} />
-            {this.state.token && <Component {...pageProps} />}
+            {<Component {...pageProps} />}
           </Layout>
         </Container>
       </ApolloProvider>
