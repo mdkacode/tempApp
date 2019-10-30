@@ -10,6 +10,6 @@
   "google": {
     "client_id": "302817888808-fkqhsvhai2qdf6egotq8ienroh2hme0o.apps.googleusercontent.com",
     "client_secret": "elca_5iSmLg4an4b6tLKCKz6",
-    "redirect_url": "http://localhost:3000/google/auth-redirect"
+    "redirect_url": "http://127.0.0.1:3000/google/auth-redirect"
   }
 }

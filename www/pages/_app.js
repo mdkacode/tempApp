@@ -31,7 +31,7 @@ class Application extends App {
 
     const validToken = cookies.get('token');
     const AuthStr = 'Bearer ' + validToken;
-    let data = await axios.get('http://localhost:4000/gettoken', { headers: { Authorization: AuthStr } });
+    let data = await axios.get('http://127.0.0.1:4000/gettoken', { headers: { Authorization: AuthStr } });
 
     if (data.data.success === true) {
       await this.setState({
@@ -51,7 +51,7 @@ class Application extends App {
   }
 
   async getLogin(values) {
-    let data = await axios.post('http://localhost:4000/login', values);
+    let data = await axios.post('http://127.0.0.1:4000/login', values);
 
     if (data.status === 200) {
       cookies.set("token", data.data.token, { path: '/', expires: new Date(Date.now() + 86400000) });

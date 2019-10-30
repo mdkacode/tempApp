@@ -18,7 +18,7 @@ function create(initialState) {
       uri:
         process.env.NODE_ENV === "production"
           ? "/api"
-          : "http://localhost:4000/api", // Server URL (must be absolute)
+          : "http://127.0.0.1:4000/api", // Server URL (must be absolute)
       credentials: "same-origin" // Additional fetch() options like `credentials` or `headers`
     }),
     cache: new InMemoryCache().restore(initialState || {})
