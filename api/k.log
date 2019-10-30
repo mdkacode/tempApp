@@ -1,0 +1,7 @@
+yarn run v1.15.2
+$ nodemon -e ts,graphql --ignore tmp/**/* --exec ts-node index.ts
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `ts-node index.ts`[39m
+🚀 Server ready at /api

@@ -1,0 +1,122 @@
+yarn run v1.15.2
+$ nodemon -e ts,graphql --ignore tmp/**/* --exec ts-node index.ts
+[33m[nodemon] 1.19.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: ts,graphql[39m
+[32m[nodemon] starting `ts-node index.ts`[39m
+🚀 Server ready at /api
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=2&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=2&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=3&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=4&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=5&limit=10
+{ videoId: [ 'd4rJ_TbJMQ4' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ videoId: [ 'd4rJ_TbJMQ4' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ videoId: [ 'd4rJ_TbJMQ4' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ createdEndTime: '2019-10-30T06:43:28.422Z',
+  createdStartTime: '2019-10-29T06:43:21.399Z' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ status: 'IN_PROGRESS',
+  createdEndTime: '2019-10-30T06:43:28.422Z',
+  createdStartTime: '2019-10-29T06:43:21.399Z' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ status: 'IN_PROGRESS',
+  createdEndTime: '2019-10-30T06:43:28.422Z',
+  createdStartTime: '2019-10-29T06:43:21.399Z' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ status: 'DOWNLOAD_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=9&limit=10
+{ status: 'NEW' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=7&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=7&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=8&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=9&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=10&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=11&limit=10
+{ status: 'FTP_DONE' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=12&limit=10
+{ createdEndTime: '2019-10-30T06:50:03.353Z',
+  createdStartTime: '2019-10-29T06:49:57.873Z' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ status: 'IN_PROGRESS',
+  createdEndTime: '2019-10-30T06:50:03.353Z',
+  createdStartTime: '2019-10-29T06:49:57.873Z' }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ videoId: [ 'aPmj0HcDRnM' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ videoId: [ ' iaWb9mfIqNI' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=8&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=4&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{ videoId: [ 'iaWb9mfIqNI' ] }
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10
+{}
+http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=1&limit=10

@@ -8,7 +8,7 @@ import { Filters } from "./globalTypes";
 // GraphQL query operation: DashboardQuery
 // ====================================================
 
-export interface DashboardQuery_mastermenu_rows {
+export interface DashboardQuery_mastermenu {
   __typename: "MasterMenu";
   videoId: string | null;
   sourceId: string | null;
@@ -21,14 +21,8 @@ export interface DashboardQuery_mastermenu_rows {
   status: string | null;
 }
 
-export interface DashboardQuery_mastermenu {
-  __typename: "Parent";
-  count: number | null;
-  rows: (DashboardQuery_mastermenu_rows | null)[] | null;
-}
-
 export interface DashboardQuery {
-  mastermenu: DashboardQuery_mastermenu | null;
+  mastermenu: (DashboardQuery_mastermenu | null)[] | null;
 }
 
 export interface DashboardQueryVariables {

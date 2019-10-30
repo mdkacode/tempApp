@@ -25,7 +25,7 @@ const GQLresolver = async () => {
 
         }
         console.log(args.filters);
-        let url = `${process.env.API_END_POINT}/youtube_donwloader/api/v1/downloadService?pageNumber=${args.pageNumber || 1}&limit=10`;
+        let url = `http://202.21.35.51:3000/youtube_donwloader/api/v1/downloadService?pageNumber=${args.pageNumber || 1}&limit=10`;
         const mastermenu = await PostApiCall(url, args.filters);
         
         console.log(url);
