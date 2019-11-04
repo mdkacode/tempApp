@@ -94,7 +94,7 @@
 }
 
 .content-list {
-    margin-top: 40px;
+    margin-top: auto;
     width: 100%;
 }
 
@@ -171,6 +171,9 @@
 
 .total-count {
     float: right;
-    margin-right: 200px !important;
+    margin-right: 100px !important;
     font-weight: 900;
+}
+.chart-count{
+    float: left;
 }
