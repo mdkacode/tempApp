@@ -17,7 +17,7 @@ function create(initialState) {
     link: new HttpLink({
       uri:
         process.env.NODE_ENV === "production"
-          ? "/api"
+          ? "http://202.21.35.120:4000/api"
           : "http://localhost:4000/api", // Server URL (must be absolute)
       credentials: "same-origin" // Additional fetch() options like `credentials` or `headers`
     }),
