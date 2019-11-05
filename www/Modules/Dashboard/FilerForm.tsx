@@ -30,7 +30,7 @@ const FilterForm = (props) => {
     
   }
   
-  const BASE_URL = 'http://localhost:3000/youtube_donwloader/api/v1/downloadService';
+  const BASE_URL = 'http://202.21.35.120:3000/youtube_donwloader/api/v1/downloadService';
   const onPieChange = async (e) =>{
 
     let data  = await axios.get(`${BASE_URL}/videoStatus?limit=${e||7}`);
