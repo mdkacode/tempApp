@@ -51,7 +51,7 @@ class Application extends App {
   }
 
   async getLogin(values) {
-    let data = await axios.post('http://localhost:4000/login', values);
+    let data = await axios.post('http://202.21.35.120:4000/login', values);
 
     if (data.status === 200) {
       cookies.set("token", data.data.token, { path: '/', expires: new Date(Date.now() + 86400000) });
