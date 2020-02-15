@@ -27,7 +27,7 @@
     "react-infinite-scroller": "^1.2.4",
     "recharts": "^1.8.5",
     "universal-cookie": "^4.0.2",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@types/graphql": "^14.0.3",
