@@ -18,7 +18,7 @@
     "axios": "^0.19.0",
     "graphql": "^14.0.2",
     "isomorphic-unfetch": "3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "next": "^7.0.2",
     "react": "^16.8.3",
     "react-apollo": "^2.3.3",
